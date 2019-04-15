@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Player</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link href="/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+  </head>
+  <body>
+    <div id="search-box">
+      <input type="text" id="search-key" placeholder="Search..." />
+      <button type="button" id="search">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <div class="container-fluid" id="search-list"></div>
+    <div id="video-placeholder"></div>
+    <div id="buttons">
+      <!-- <i id="play" class="material-icons">play_arrow</i>
+      <i id="pause" class="material-icons">pause</i> -->
+      <button type="button" id="play">
+        <i class="fas fa-play"></i>
+      </button>
+      <button type="button" id="pause">
+        <i class="fas fa-pause"></i>
+      </button>
+    </div>
+  </body>
+  <script src="/chat.js"></script>
+</html>
