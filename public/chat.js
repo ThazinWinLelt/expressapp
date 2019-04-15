@@ -1,5 +1,7 @@
 // Make connection
-var socket = io.connect("http://localhost:4000");
+// var socket = io.connect("http://localhost:4000");
+var socket = io.connect("https://expressapp123.herokuapp.com/");
+
 
 var play = document.getElementById("play");
 var pause = document.getElementById("pause");
