@@ -4,19 +4,19 @@ Created a video player using youtube API to be use for multiple users at the sam
 
 ### Screenshots
 
-    You can search for your favorite video and play them
+You can search for your favorite video and play them
 
 ![Example screenshot](./img/img1.png)
 
 ![Example screenshot](./img/img2.png)
 
-    In the browser (1) if you click in “play the video” and this event automatically will play the same video on the browser (1) and the browser (2).
+In the browser (1) if you click in “play the video” and this event automatically will play the same video on the browser (1) and the browser (2).
 
 ![Example screenshot](./img/img3.png)
 
 ![Example screenshot](./img/img4.png)
 
-    Now when you go to the browser (2), you will be able to pause it and this event will also pause the video on the browser (1)
+Now when you go to the browser (2), you will be able to pause it and this event will also pause the video on the browser (1)
 
 ![Example screenshot](./img/img5.png)
 
