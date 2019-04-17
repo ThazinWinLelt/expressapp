@@ -33,7 +33,9 @@ Now when you go to the browser (2), you will be able to pause it and this event 
 #### References
 
 How to deploy a NodeJS app to Heroku from Github
+
 https://medium.freecodecamp.org/how-to-deploy-a-nodejs-app-to-heroku-from-github-without-installing-heroku-on-your-machine-433bec770efe
 
 Heroku Signup
+
 https://signup.heroku.com/login
