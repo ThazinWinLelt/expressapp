@@ -14,11 +14,11 @@ In the browser (1) if you click in “play the video” and this event automatic
 
 ![Example screenshot](./img/img3.png)
 
-![Example screenshot](./img/img4.png)
+![Example screenshot](./img/img4.PNG)
 
 Now when you go to the browser (2), you will be able to pause it and this event will also pause the video on the browser (1)
 
-![Example screenshot](./img/img5.png)
+![Example screenshot](./img/img5.PNG)
 
 ### Technical Aspects
 
